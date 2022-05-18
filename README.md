@@ -21,7 +21,7 @@ $ npm install file-loader --save-dev
 
 
 # How to use
-run `yarn start` in your terminal and open http://localhost:9000/ in your browser
+run `yarn install`, `yarn build`, and `yarn start` in your terminal and open http://localhost:9000/ in your browser
 
 
 
