@@ -26,4 +26,4 @@ run `yarn start` in your terminal and open http://localhost:9000/ in your browse
 
 
 # References
-Used[monaco-tree-sitter](https://github.com/Menci/monaco-tree-sitter) for syntax highlighting in the text editor, 
+Used [monaco-tree-sitter](https://github.com/Menci/monaco-tree-sitter) for syntax highlighting in the text editor, 
