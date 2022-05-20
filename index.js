@@ -1,8 +1,5 @@
-// monaco.editor.create(document.getElementById('container'), {
-// 	value: "function hello() {\n\talert('Hello world!');\n}",
-// 	language: 'javascript'
-// });
 
+//import loader from "@monaco-editor/loader";
 import "./styles.css";
 import "./patch-fetch";
 import * as Monaco from "monaco-editor/esm/vs/editor/editor.api";
@@ -39,7 +36,8 @@ int main()
 
   window.editor = Monaco.editor.create(document.querySelector("#app"), {
     value: cppCode,
-    language: "cpp"
+    language: "javascript"
+    // language: "cpp"
   });
 
   window.editor = editor;
