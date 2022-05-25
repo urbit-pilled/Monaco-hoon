@@ -4,7 +4,7 @@ const MonacoWebpackPlugin = require("monaco-editor-webpack-plugin");
 module.exports = {
   entry: __dirname + "/index.js",
   devServer: {
-    contentBase: path.join(__dirname, "dist"),
+    static: './',
     compress: true,
     port: 9000
   },
@@ -32,12 +32,11 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new MonacoWebpackPlugin({
-      languages: ["cpp"]
-    })
-  ],
-  node: {
-    fs: "empty"
-  }
+  resolve: {
+    fallback: {
+      path: require.resolve( 'path-browserify' ),
+      fs: false
+    }
+  },
+  mode: 'development'
 };
