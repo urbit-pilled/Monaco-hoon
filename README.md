@@ -9,4 +9,5 @@ run `yarn install`, `yarn build`, and `yarn start` in your terminal and open htt
 
 
 # References
-Used [monaco-tree-sitter](https://github.com/Menci/monaco-tree-sitter) for syntax highlighting in the text editor, 
+* [monaco-tree-sitter](https://github.com/Menci/monaco-tree-sitter) for the in-browser text-editor
+* [tree-sitter-formula](https://github.com/siraben/tree-sitter-formula) for the Formula tree-sitter grammar
