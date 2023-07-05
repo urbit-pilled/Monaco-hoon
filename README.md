@@ -1,13 +1,10 @@
-# working-demo
-Working Demo of a Monaco Editor integrated with Tree-sitter embedded in an html page
+# Monaco Hoon Editor
+Edit hoon code using monaco-editor. Hoon syntax highlighting is supported via tree-sitter
 
+## Instructions
+1. run `yarn install`
+2. run `yarn build && yarn start` in your terminal 
+3. open http://localhost:9000/ in your browser
 
-
-# How to use
-run `yarn install`, `yarn build`, and `yarn start` in your terminal and open http://localhost:9000/ in your browser
-
-
-
-# References
-* [monaco-tree-sitter](https://github.com/Menci/monaco-tree-sitter) for the in-browser text-editor
-* [tree-sitter-formula](https://github.com/siraben/tree-sitter-formula) for the Formula tree-sitter grammar
+## Demo
+Go to https://urbit-pilled.github.io/Monaco-hoon to try out the hoon editor online.
