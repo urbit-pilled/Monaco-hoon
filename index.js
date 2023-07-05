@@ -94,7 +94,7 @@ const formulaCode = `
     parser.setLanguage(Lang);
   
     const language = new Language(require("./grammar.json"));
-    await language.init("http://localhost:9000/tree-sitter-hoon.wasm", Parser);
+    await language.init("/tree-sitter-hoon.wasm", Parser);
   
   
     window.editor = Monaco.editor.create(document.querySelector("#app"), {
